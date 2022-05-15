@@ -1,0 +1,21 @@
+{
+  "fields": [
+    { "name": "id", "type": "string" },
+    { "name": "name", "type": "string" },
+    { "name": "email", "type": "string" },
+    { "name": "phone", "type": "string" },
+    { "name": "rut", "type": "string" },
+    { "name": "role", "type": "string" },
+    { "name": "scope", "type": "array" },
+    { "name": "currentTenant", "type": "string" },
+    { "name": "tenants", "type": "array" },
+    { "name": "uid", "type": "string" },
+    { "name": "sendGreetingEmail", "type": "boolean" },
+    { "name": "sendSmsNotifications", "type": "boolean" },
+    { "name": "sendWhatsappNotifications", "type": "boolean" },
+    { "name": "created", "type": "timestamp" },
+    { "name": "createdBy", "type": "string" },
+    { "name": "updated", "type": "timestamp" },
+    { "name": "updatedBy", "type": "string" }
+  ]
+}
