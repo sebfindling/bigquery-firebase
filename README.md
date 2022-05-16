@@ -28,6 +28,7 @@ En el caso de Dreamoms: `project=dreamoms`, `dataset=users`, `table-name-prefix=
 ```
 
 ### Importar datos anteriores de una colección
+USAR SÓLO *UNA VEZ*, cuando se implementa por primera vez BigQuery
 ```
 ./node_modules/.bin/fs-bq-import-collection
 ```

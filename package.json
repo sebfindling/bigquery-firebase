@@ -1,0 +1,15 @@
+{
+  "name": "bigquery-firebase",
+  "version": "1.0.0",
+  "description": "### Instalación 1. Instalar `gcloud`: `curl https://sdk.cloud.google.com | bash` 2. Logearse con `gcloud auth login` 3. Instalar dependencias: `npm i`",
+  "main": "index.js",
+  "dependencies": {
+    "@firebaseextensions/fs-bq-import-collection": "^0.1.12",
+    "@firebaseextensions/fs-bq-schema-views": "^0.4.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
